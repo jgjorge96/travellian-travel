@@ -1,0 +1,52 @@
+/*Fonts Palyair Display y Rubik*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik&display=swap');
+
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Rubik', sans-serif;
+*/
+h1 {
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+h2 {
+    display: inline-block;
+    color: #172432;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    border-bottom: 3px solid #FF7757;
+}
+h3 {
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+h4 {
+    color: #172432;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+p {
+    color: #767E86;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

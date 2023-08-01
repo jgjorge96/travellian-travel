@@ -1,0 +1,506 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/*Fonts Palyair Display y Rubik*/
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Rubik', sans-serif;
+*/
+h1 {
+  color: #FFFFFF;
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+h2 {
+  display: inline-block;
+  color: #172432;
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  border-bottom: 3px solid #FF7757;
+}
+
+h3 {
+  color: #FFFFFF;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h4 {
+  color: #172432;
+  font-family: "Playfair Display", serif;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+p {
+  color: #767E86;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+header {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(../../assets/images/hero-background.jpg), lightgray 0px -851.143px/360% 182.51% no-repeat;
+  background-position: left bottom;
+}
+
+.svg-white {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(37deg) brightness(106%) contrast(102%);
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin: 0px 16px;
+}
+.hero-section .header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 16px;
+}
+.hero-section .header-menu .hero-logo {
+  max-width: 140px;
+}
+.hero-section form {
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-bottom: 100px;
+}
+.hero-section form .form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.hero-section form .form-container .input-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.hero-section form .form-container .input-container .label {
+  color: #767E86;
+  font-family: "Rubik", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+.hero-section form .form-container .input-container input {
+  border: none;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+.hero-section form .form-container .input-container select {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+.hero-section form button {
+  color: #FFF;
+  font-family: "Playfair Display", serif;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 40px 20px;
+  border-radius: 0px 0px 16px 16px;
+  background: #FF7757;
+  border: none;
+}
+.hero-section form button img {
+  margin-left: 12px;
+  width: 36px;
+}
+
+main {
+  padding: 0 16px;
+}
+main .destinations {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+main .destinations article {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+main .destinations .carousel-container {
+  display: flex;
+  justify-content: center;
+}
+main .destinations-carousel {
+  width: 100%;
+}
+main .destinations-carousel .img-card {
+  border-radius: 16px;
+  width: 100%;
+  height: 320px;
+}
+main .destinations-carousel .carousel-text {
+  padding: 0 20px 40px 20px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: left;
+}
+main .destinations-carousel .carousel-text h5 {
+  margin-bottom: 17px;
+  color: #FFF;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .destinations-carousel .carousel-text p {
+  margin-bottom: 0;
+  color: #FFF;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+main .destinations-carousel .carousel-description {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+main .destinations-carousel .carousel-description h5 {
+  color: #767E86;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+main .destinations-carousel .carousel-description p {
+  color: #172432;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+main .destinations-carousel .carousel-description h4 {
+  color: #767E86;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+main .destinations-carousel .carousel-description h4 span {
+  color: #FF7757;
+  font-family: "Rubik", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+main .destinations-carousel .carousel-description .details-button {
+  width: fit-content;
+  display: inline-block;
+  padding: 16px 24px;
+  border-radius: 0.75rem;
+  background: #FF7654;
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+main .carousel-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+main .carousel-buttons .next-button {
+  padding: 20px;
+  border-radius: 0.75rem;
+  background: #FF7757;
+  border: none;
+}
+main .carousel-buttons .prev-button {
+  background-color: #172432;
+}
+main .offers {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+main .offers article {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+main .blog {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+main .blog article {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+main .blog .blog-article img {
+  width: 100%;
+  height: fit-content;
+  border-radius: 26px;
+}
+main .blog .blog-article h2 {
+  display: block;
+  border: none;
+  padding: 0;
+  margin: 32px 0 0 0;
+}
+main .blog .blog-article p {
+  color: #172432;
+  margin: 24px 0;
+}
+main .blog .blog-article a {
+  text-decoration: none;
+  color: #FF7757;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+}
+main .blog .blog-article a img {
+  width: fit-content;
+  margin-left: 20px;
+}
+main .trips {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+main .trips article p {
+  margin: 32px 0;
+}
+main .trips article .plans-button {
+  display: inline-block;
+  padding: 20px;
+  border-radius: 0.75rem;
+  background: #FF7654;
+  color: #FFFFFF;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+main .trips .trips-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+main .trips .trips-container .trips-card img {
+  width: 100%;
+  height: 320px;
+  border-radius: 26px;
+}
+main .trips .trips-container .trips-card .trips-details {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+main .trips .trips-container .trips-card .trips-details .span-container {
+  display: flex;
+  justify-content: space-between;
+}
+main .gallery {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+main .gallery article {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+main .gallery .gallery-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+main .gallery .gallery-container img {
+  width: 100%;
+  height: fit-content;
+  border-radius: 26px;
+}
+main .experiences {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+main .experiences article {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+main .travellers-carousel {
+  background-color: #F5F6F7;
+  border-radius: 12px;
+}
+main .travellers-carousel .img-center {
+  display: flex;
+  justify-content: center;
+}
+main .travellers-carousel .img-center img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+main .travellers-carousel .travellers-description p {
+  color: #767E86;
+  font-size: 1.125rem;
+}
+main .travellers-carousel .travellers-description h5 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+}
+main .travellers-carousel .travellers-description h3 {
+  color: #767E86;
+}
+main .newsletter {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+main .newsletter .newsletter-container {
+  padding: 40px 20px;
+  border-radius: 1.25rem;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+}
+main .newsletter .newsletter-container h2 {
+  color: #767E86;
+  border: none;
+}
+main .newsletter .newsletter-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+main .newsletter .newsletter-container form div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+main .newsletter .newsletter-container form div label {
+  color: #767E86;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+main .newsletter .newsletter-container form div input {
+  background-color: #FFE8D4;
+  border: none;
+  border-radius: 12px;
+  padding: 24px 0;
+}
+main .newsletter .newsletter-container form div input::placeholder {
+  color: #FF7757;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+main .newsletter .newsletter-container form button {
+  padding: 16px 40px;
+  background-color: #FF7757;
+  border: none;
+  border-radius: 12px;
+  color: #FFFFFF;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+footer {
+  padding: 80px 16px;
+  background-color: #172432;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+footer ul, footer .info-data {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+footer li {
+  list-style: none;
+}
+footer a, footer h5 {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+footer h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 0;
+}
+footer .logo-container img {
+  max-width: 234px;
+}
+footer .info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+footer .info-container .social-media {
+  display: flex;
+  gap: 24px;
+}
+
+/*# sourceMappingURL=styles.css.map */
