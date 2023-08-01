@@ -61,7 +61,7 @@ p {
 }
 
 header {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(../../assets/images/hero-background.jpg), lightgray 0px -851.143px/360% 182.51% no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(../assets/images/hero-background.jpg), lightgray 0px -851.143px/360% 182.51% no-repeat;
   background-position: left bottom;
 }
 
