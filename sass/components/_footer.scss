@@ -30,6 +30,9 @@ footer {
         margin: 0;
     }
     .logo-container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
         img {
             max-width: 234px;
         }
