@@ -20,6 +20,24 @@ header {
         .hero-logo {
             max-width: 140px;
         }
+        .nav-button {
+            border: none;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+        .items-group {
+            padding: 24px 0;
+        }
+        .self-item {
+            color: #FFFFFF;
+            font-family: 'Rubik', sans-serif;
+            font-size: 1.125rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
     }
 
     form {

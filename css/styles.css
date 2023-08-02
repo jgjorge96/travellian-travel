@@ -93,6 +93,23 @@ header {
 .hero-section .header-menu .hero-logo {
   max-width: 140px;
 }
+.hero-section .header-menu .nav-button {
+  border: none;
+}
+.hero-section .header-menu .nav-button:focus {
+  box-shadow: none;
+}
+.hero-section .header-menu .items-group {
+  padding: 24px 0;
+}
+.hero-section .header-menu .self-item {
+  color: #FFFFFF;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 .hero-section form {
   background-color: #FFFFFF;
   border-radius: 16px;
