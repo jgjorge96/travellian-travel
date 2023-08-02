@@ -125,12 +125,13 @@ header {
   border-bottom: 1px solid #000;
   padding-bottom: 10px;
   width: 100%;
+  -webkit-appearance: none;
 }
 .hero-section form .form-container .input-container input [type=date] {
   border: none;
   border-bottom: 1px solid #000;
   padding-bottom: 10px;
-  width: 100%;
+  width: auto;
 }
 .hero-section form .form-container .input-container input [type=date]::-webkit-inner-spin-button, .hero-section form .form-container .input-container input [type=date]::-webkit-calendar-picker-indicator {
   display: none;
