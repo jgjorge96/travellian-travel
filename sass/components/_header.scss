@@ -46,10 +46,18 @@ header {
                     line-height: normal;
                     margin-bottom: 12px;
                 }
-                input {
+                input [type=date] {
                     border: none;
                     border-bottom: 1px solid #000;
                     padding-bottom: 10px;
+                    width: 100%;
+                    &::-webkit-inner-spin-button,
+                    &::-webkit-calendar-picker-indicator {
+                        display: none;
+                        -webkit-appearance: none;
+                    }
+                    
+                    
                 }
                 select {
                     background: none;
