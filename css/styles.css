@@ -123,6 +123,11 @@ header {
   flex-direction: column;
   gap: 40px;
 }
+.hero-section form .form-container .input-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
 .hero-section form .form-container .input-container {
   padding: 20px;
   display: flex;
@@ -161,16 +166,20 @@ header {
   padding-bottom: 10px;
 }
 .hero-section form button {
-  color: #FFF;
+  border-radius: 0px 0px 16px 16px;
+  background: #FF7757;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px;
+}
+.hero-section form button span {
+  color: #FFFFFF;
   font-family: "Playfair Display", serif;
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding: 40px 20px;
-  border-radius: 0px 0px 16px 16px;
-  background: #FF7757;
-  border: none;
 }
 .hero-section form button img {
   margin-left: 12px;
@@ -544,6 +553,44 @@ footer .info-container {
 footer .info-container .social-media {
   display: flex;
   gap: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3.375rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  .hero-section {
+    margin: 0;
+  }
+  .hero-section article {
+    padding: 0 20px;
+  }
+  .hero-section .header-menu .hero-logo {
+    max-width: 234px;
+  }
+  .hero-section form {
+    flex-direction: row;
+    width: fit-content;
+    gap: 100px;
+    border-radius: 0 20px 20px 0;
+  }
+  .hero-section form .form-container .input-wrap {
+    flex-direction: row;
+  }
+  .hero-section form .form-container .input-wrap .input-container {
+    width: 100%;
+  }
+  .hero-section form button {
+    border-radius: 0 20px 20px 0;
+    align-items: center;
+    gap: 12px;
+  }
+  .hero-section form button span {
+    width: min-content;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

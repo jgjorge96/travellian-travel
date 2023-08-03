@@ -51,6 +51,11 @@ header {
             display: flex;
             flex-direction: column;
             gap: 40px;
+            .input-wrap {
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+            }
             .input-container {
                 padding: 20px;
                 display: flex;
@@ -94,16 +99,21 @@ header {
         }
 
         button {
-            color: #FFF;
-            font-family: 'Playfair Display', serif;
-            font-size: 2.25rem;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            padding: 40px 20px;
             border-radius: 0px 0px 16px 16px;
             background: #FF7757;
             border: none;
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 20px;
+            span {
+                color: #FFFFFF;
+                font-family: 'Playfair Display', serif;
+                font-size: 2.25rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                
+            }
 
             img {
                 margin-left: 12px;

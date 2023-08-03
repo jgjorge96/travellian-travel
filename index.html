@@ -13,12 +13,6 @@
 <body>
     <header id="home">
         <section class="hero-section">
-            <!-- <div class="header-menu">
-                <img src="./assets/icons/hero-logo.svg" alt="Travellian logo" class="hero-logo">  
-                <a href="#">
-                    <img src="./assets/icons/hamburguer.svg" alt="Hamburguer button">
-                </a>
-            </div> -->
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid header-menu">
                   <a class="navbar-brand" href="#"><img src="./assets/icons/hero-logo.svg" alt="Travellian logo" class="hero-logo"></a>
@@ -55,34 +49,38 @@
 
             <article>
                 <h1>Start your unforgettable journey with us.</h1>
-                <h3>The best travel for your jouney <br> begins now</h3>
+                <h3>The best travel for your jouney begins now</h3>
             </article>
 
             <form>
                 <div class="form-container">
-                    <div class="input-container">
-                        <label for="destination" class="label">DESTINATION</label>
-                        <input type="text" id="destination" name="destination">
+                    <div class="input-wrap">
+                        <div class="input-container">
+                            <label for="destination" class="label">DESTINATION</label>
+                            <input type="text" id="destination" name="destination">
+                        </div>
+                        <div class="input-container">
+                            <label for="person" class="label">PERSON</label>
+                            <select name="persons" id="persons">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="input-container">
-                        <label for="person" class="label">PERSON</label>
-                        <select name="persons" id="persons">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                        </select>
-                    </div>
-                    <div class="input-container">
-                        <label for="checkIn" class="label">CHECK-IN</label>
-                        <input type="date" id="checkIn" name="checkIn">
-                    </div>
-                    <div class="input-container">
-                        <label for="checkOut" class="label">CHECK-OUT</label>
-                        <input type="date" id="checkOut" name="checkOut">
+                    <div class="input-wrap">
+                        <div class="input-container">
+                            <label for="checkIn" class="label">CHECK-IN</label>
+                            <input type="date" id="checkIn" name="checkIn">
+                        </div>
+                        <div class="input-container">
+                            <label for="checkOut" class="label">CHECK-OUT</label>
+                            <input type="date" id="checkOut" name="checkOut">
+                        </div>
                     </div>
                 </div>
-                <button>Book Now <img src="./assets/icons/arrow-button.svg" alt=""></button>
+                <button><span>Book Now</span><img src="./assets/icons/arrow-button.svg" alt=""></button>
             </form>
         </section>
     </header>
