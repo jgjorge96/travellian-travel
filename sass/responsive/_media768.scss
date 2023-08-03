@@ -2,7 +2,13 @@
     h1 {
         font-size: 3.375rem;
     }
+    h2 {
+        font-size: 54px;
+    }
     h3 {
+        font-size: 1.25rem;
+    }
+    p {
         font-size: 1.25rem;
     }
 
@@ -42,6 +48,17 @@
                 span {
                     width: min-content;
                 }
+            }
+        }
+    }
+
+    main {
+        padding: 0 20px;
+
+        .destinations-carousel {
+            .img-card {
+                height: 456px;
+                border-radius: 26px;
             }
         }
     }

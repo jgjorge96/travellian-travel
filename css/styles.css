@@ -31,6 +31,7 @@ h2 {
   padding-bottom: 20px;
   margin-bottom: 0;
   border-bottom: 3px solid #FF7757;
+  width: fit-content;
 }
 
 h3 {
@@ -559,7 +560,13 @@ footer .info-container .social-media {
   h1 {
     font-size: 3.375rem;
   }
+  h2 {
+    font-size: 54px;
+  }
   h3 {
+    font-size: 1.25rem;
+  }
+  p {
     font-size: 1.25rem;
   }
   .hero-section {
@@ -590,6 +597,13 @@ footer .info-container .social-media {
   }
   .hero-section form button span {
     width: min-content;
+  }
+  main {
+    padding: 0 20px;
+  }
+  main .destinations-carousel .img-card {
+    height: 456px;
+    border-radius: 26px;
   }
 }
 
