@@ -218,6 +218,16 @@ main {
                     .span-container {
                         display: flex;
                         justify-content: space-between;
+
+                        span {
+                            color: #172432;
+                            font-family: 'Rubik', sans-serif;
+                            font-size: 1.125rem;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            text-transform: uppercase;
+                        }
                     }
                 }
             }

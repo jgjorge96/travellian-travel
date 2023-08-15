@@ -3,10 +3,13 @@
         font-size: 3.375rem;
     }
     h2 {
-        font-size: 54px;
+        font-size: 3.375rem;
     }
     h3 {
         font-size: 1.25rem;
+    }
+    h4 {
+        font-size: 2rem;
     }
     p {
         font-size: 1.25rem;
@@ -60,6 +63,59 @@
                 height: 456px;
                 border-radius: 26px;
             }
+            .carousel-text {
+                h5 {
+                    font-size: 1.75rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .carousel-description {
+            padding: 20px 24px;
+            
+            p {
+                font-size: 1.125rem;
+                line-height: normal;
+            }
+        }
+        .blog {
+            .blog-article {
+                img {
+                    max-height: 555px;
+                }
+                p {
+                    font-size: 1.125rem;
+                    line-height: 2.625rem;
+                }
+            }
+        }
+        .trips {
+            .trips-container {
+                .trips-card {
+                    img {
+                        height: 350px;
+                    }
+                    .trips-details {
+                        .span-container {
+                            span {
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .gallery {
+            .gallery-container {
+                img {
+                    max-height: 351px;
+                }
+            }
+        }
+        .experiences {
+            gap: 160px;
         }
     }
 }

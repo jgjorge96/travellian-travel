@@ -389,6 +389,15 @@ main .trips .trips-container .trips-card .trips-details .span-container {
   display: flex;
   justify-content: space-between;
 }
+main .trips .trips-container .trips-card .trips-details .span-container span {
+  color: #172432;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
 main .gallery {
   padding: 80px 0;
   display: flex;
@@ -561,10 +570,13 @@ footer .info-container .social-media {
     font-size: 3.375rem;
   }
   h2 {
-    font-size: 54px;
+    font-size: 3.375rem;
   }
   h3 {
     font-size: 1.25rem;
+  }
+  h4 {
+    font-size: 2rem;
   }
   p {
     font-size: 1.25rem;
@@ -604,6 +616,38 @@ footer .info-container .social-media {
   main .destinations-carousel .img-card {
     height: 456px;
     border-radius: 26px;
+  }
+  main .destinations-carousel .carousel-text h5 {
+    font-size: 1.75rem;
+  }
+  main .destinations-carousel .carousel-text p {
+    font-size: 1.5rem;
+  }
+  main .carousel-description {
+    padding: 20px 24px;
+  }
+  main .carousel-description p {
+    font-size: 1.125rem;
+    line-height: normal;
+  }
+  main .blog .blog-article img {
+    max-height: 555px;
+  }
+  main .blog .blog-article p {
+    font-size: 1.125rem;
+    line-height: 2.625rem;
+  }
+  main .trips .trips-container .trips-card img {
+    height: 350px;
+  }
+  main .trips .trips-container .trips-card .trips-details .span-container span {
+    font-size: 1.5rem;
+  }
+  main .gallery .gallery-container img {
+    max-height: 351px;
+  }
+  main .experiences {
+    gap: 160px;
   }
 }
 
