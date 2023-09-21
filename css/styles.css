@@ -569,18 +569,23 @@ footer .info-container .social-media {
   h1 {
     font-size: 3.375rem;
   }
+
   h2 {
     font-size: 3.375rem;
   }
+
   h3 {
     font-size: 1.25rem;
   }
+
   h4 {
     font-size: 2rem;
   }
+
   p {
     font-size: 1.25rem;
   }
+
   .hero-section {
     margin: 0;
   }
@@ -610,6 +615,7 @@ footer .info-container .social-media {
   .hero-section form button span {
     width: min-content;
   }
+
   main {
     padding: 0 20px;
   }
@@ -649,6 +655,115 @@ footer .info-container .social-media {
   main .experiences {
     gap: 160px;
   }
+}
+@media screen and (min-width: 1100px) {
+  h1 {
+    font-size: 5.25rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  header .hero-section .navbar-collapse {
+    flex-grow: unset;
+  }
+  header .hero-section form .form-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main .destinations-carousel {
+    width: auto;
+  }
+  main .destinations-carousel .img-card {
+    width: 500px;
+  }
+  main .offers .carousel-inner .active {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  main .offers .carousel-inner .carousel-item .carousel-description {
+    width: 500px;
+  }
+  main .offers .carousel-inner .carousel-item .carousel-description h4 {
+    font-size: 1.25rem;
+  }
+  main .offers .carousel-inner .carousel-item .carousel-description span {
+    font-size: 1.5rem;
+  }
+  main .blog .blog-article {
+    flex-direction: row;
+    gap: 32px;
+  }
+  main .blog .blog-article .article-img {
+    height: 800px;
+    width: 50%;
+  }
+  main .blog .blog-article .article-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  main .blog .blog-article .article-container p {
+    margin: 0;
+  }
+  main .trips .trips-container {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  main .trips .trips-container .trips-details {
+    width: 500px;
+  }
+  main .gallery .gallery-container {
+    flex-direction: row;
+  }
+  main .travellers-carousel .carousel-inner {
+    display: flex;
+    justify-content: center;
+  }
+  main .travellers-carousel .carousel-inner .carousel-item {
+    width: 500px;
+    margin: 0;
+  }
+  main .travellers-carousel .carousel-inner .carousel-item .travellers-description {
+    width: 500px;
+  }
+  main .newsletter .newsletter-container {
+    padding: 60px 80px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+  }
+  main .newsletter .newsletter-container form {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: flex-end;
+  }
+  main .newsletter .newsletter-container form .input-newsletter input {
+    padding: 16px;
+    width: 372px;
+  }
+  main .newsletter .newsletter-container form button {
+    height: fit-content;
+  }
+}
+footer {
+  flex-direction: row;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
